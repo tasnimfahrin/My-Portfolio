@@ -173,10 +173,6 @@ section{
     grid-area: 1/1/2/2;
 }
 
-.image:hover{
-    transition: 0.3s linear;
-}
-
 .main-container .content{
     color: black;
     width: 40%;
