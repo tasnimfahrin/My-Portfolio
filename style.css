@@ -82,13 +82,13 @@ nav{
 }
 
 .nav-container .contact-btn{
-    background-color: transparent;
-    padding: 5px, 25px;
+   background-color: transparent;
+    padding: 5px 20px;
     border-radius: 20px;
-    color: white;
-    border: 3px solid rgb(109,67,0);
+    border: 2px solid rgb(109, 67, 0);
     transition: 0.2s linear;
 }
+
 
 .nav-container .contact-btn a{
     color: white;
@@ -96,11 +96,12 @@ nav{
 }
 
 .nav-container .contact-btn:hover, .nav-container .contact-btn:hover a{
-    background-color: rgb(254, 226, 173);
-    color: white;
+    background-color: rgb(109, 67, 0);
+    color: white
 }
+
 .nav-container .links a:hover{
-    color: rgb(109,67,0);
+    color: rgb(109, 67, 0);
 }
 
 .dropdown{
