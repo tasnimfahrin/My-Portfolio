@@ -64,7 +64,7 @@ nav{
     color: black;
     text-decoration: none;
     font-weight: 500;
-    transform: 0.3s linear
+    transform: 0.3s linear;
 }
 
 .nav-container .links a::before{
@@ -97,7 +97,7 @@ nav{
 
 .nav-container .contact-btn:hover, .nav-container .contact-btn:hover a{
     background-color: rgb(109, 67, 0);
-    color: white
+    color: white;
 }
 
 .nav-container .links a:hover{
@@ -289,7 +289,7 @@ section{
 
 
 /*------------------About-------------------*/
-.about {
+.about{
     width: 100%;
     min-height: 90vh;
     display: flex;
@@ -299,7 +299,7 @@ section{
     background:rgb(254,215,173);
 }
 
-.about-container {
+.about-container{
     width: 100%;
     display: flex;
     justify-content: space-evenly;
@@ -307,7 +307,7 @@ section{
     flex-wrap: wrap;
 }
 
-.about-image {
+.about-image{
     flex: 1 1 40%;
     display: flex;
     justify-content: center;
@@ -315,36 +315,36 @@ section{
     padding: 1rem;
 }
 
-.about-image img {
+.about-image img{
     width: min(20rem, 87%);
     border-radius: 50%;
     box-shadow: 0 0 25px rgb(109, 67, 0);
     transition: 0.4s ease;
 }
 
-.about-image img:hover {
+.about-image img:hover{
     box-shadow: 0 0 25px rgb(109, 67, 0),
                 0 0 35px rgb(109, 67, 0),
                 0 0 45px rgb(109, 67, 0);
 }
 
-.about-content {
+.about-content{
     flex: 1 1 50%;
     padding: 1rem;
     color: black;
 }
 
-.about-content h2 {
+.about-content h2{
     font-size: clamp(2rem, 4vw, 3rem);
     margin-bottom: 1rem;
 }
 
-.about-content h2 span {
+.about-content h2 span{
     color: rgb(109, 67, 0);
     text-shadow: 0 0 10px rgb(109, 67, 0);
 }
 
-.about-content p {
+.about-content p{
     font-size: clamp(1rem, 1.5vw, 1.2rem);
     line-height: 1.6;
     margin-bottom: 1.5rem;
@@ -369,31 +369,31 @@ section{
 
 
 /*------------------Skills-------------------*/
-.skills {
+.skills{
     background: rgb(248, 235, 221);
     padding: 4rem 5%;
     text-align: center;
 }
 
-.skills .heading {
+.skills .heading{
     font-size: clamp(2rem, 4vw, 3rem);
     color: black;
     margin-bottom: 2rem;
 }
 
-.skills .heading span {
+.skills .heading span{
     color: rgb(109, 67, 0);
     text-shadow: 0 0 10px rgb(109, 67, 0);
 }
 
-.skills-container {
+.skills-container{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     gap: 2rem;
 }
 
-.skills-box {
+.skills-box{
     background-color: white;
     padding: 2rem;
     border-radius: 20px;
@@ -402,25 +402,25 @@ section{
     transition: 0.3s ease-in-out;
 }
 
-.skills-box i {
+.skills-box i{
     font-size: 3rem;
     color: rgb(109, 67, 0);
     margin-bottom: 1rem;
 }
 
-.skills-box h3 {
+.skills-box h3{
     font-size: 1.5rem;
     color: black;
     margin-bottom: 0.5rem;
 }
 
-.skills-box p {
+.skills-box p{
     font-size: 1rem;
     color: #444;
     margin-bottom: 1rem;
 }
 
-.skills-box button {
+.skills-box button{
     padding: 8px 16px;
     background-color: rgb(109, 67, 0);
     color: white;
@@ -430,21 +430,21 @@ section{
     transition: 0.2s ease;
 }
 
-.skills-box button:hover {
+.skills-box button:hover{
     background-color: white;
     color: rgb(109, 67, 0);
     border: 1px solid rgb(109, 67, 0);
     box-shadow: 0 0 10px rgb(109, 67, 0);
 }
 
-.skills-box:hover {
+.skills-box:hover{
     transform: translateY(-10px);
     box-shadow: 0 0 30px rgba(109, 67, 0, 0.3);
 }
 
 
 /*---------------------Contact--------------------*/
-.contact {
+.contact{
     width: 100%;
     background: linear-gradient(to right, rgb(255,255,255),rgb(254,215,173));
     padding: 4rem 5%;
@@ -453,7 +453,7 @@ section{
     align-items: center;
 }
 
-.contact-container {
+.contact-container{
     max-width: 1200px;
     width: 100%;
     display: flex;
@@ -466,33 +466,33 @@ section{
     box-shadow: 0 0 20px rgba(109, 67, 0, 0.2);
 }
 
-.contact-info {
+.contact-info{
     flex: 1 1 40%;
     color: black;
 }
 
-.contact-info h2 {
+.contact-info h2{
     font-size: clamp(2rem, 4vw, 3rem);
     margin-bottom: 1rem;
 }
 
-.contact-info h2 span {
+.contact-info h2 span{
     color: rgb(109, 67, 0);
     text-shadow: 0 0 10px rgb(109, 67, 0);
 }
 
-.contact-info p {
+.contact-info p{
     margin: 0.5rem 0;
     font-size: 1rem;
     color: #444;
 }
 
-.contact-info i {
+.contact-info i{
     margin-right: 10px;
     color: rgb(109, 67, 0);
 }
 
-.contact-form {
+.contact-form{
     flex: 1 1 50%;
     display: flex;
     flex-direction: column;
@@ -500,7 +500,7 @@ section{
 }
 
 .contact-form input,
-.contact-form textarea {
+.contact-form textarea{
     width: 100%;
     padding: 1rem;
     border: 1px solid #ccc;
@@ -511,12 +511,12 @@ section{
 }
 
 .contact-form input:focus,
-.contact-form textarea:focus {
+.contact-form textarea:focus{
     border-color: rgb(109, 67, 0);
     box-shadow: 0 0 5px rgb(109, 67, 0);
 }
 
-.contact-form button {
+.contact-form button{
     align-self: flex-start;
     padding: 10px 20px;
     background-color: rgb(109, 67, 0);
@@ -528,14 +528,14 @@ section{
     transition: 0.3s ease;
 }
 
-.contact-form button:hover {
+.contact-form button:hover{
     background-color: white;
     color: rgb(109, 67, 0);
     border: 1px solid rgb(109, 67, 0);
     box-shadow: 0 0 10px rgb(109, 67, 0);
 }
 
-.copyright {
+.copyright{
     background-color:rgb(254,215,173);
     color: black;
     text-align: center;
@@ -545,6 +545,6 @@ section{
     border-top: 1px solid rgb(254,215,173);
 }
 
-.copyright p {
+.copyright p{
     margin: 0;
 }
