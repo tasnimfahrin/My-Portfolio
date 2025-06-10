@@ -376,3 +376,77 @@ section{
 }
 
 
+/*------------------Skills-------------------*/
+.skills {
+    background: rgb(248, 235, 221);
+    padding: 4rem 5%;
+    text-align: center;
+}
+
+.skills .heading {
+    font-size: clamp(2rem, 4vw, 3rem);
+    color: black;
+    margin-bottom: 2rem;
+}
+
+.skills .heading span {
+    color: rgb(109, 67, 0);
+    text-shadow: 0 0 10px rgb(109, 67, 0);
+}
+
+.skills-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.skills-box {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(109, 67, 0, 0.2);
+    width: 250px;
+    transition: 0.3s ease-in-out;
+}
+
+.skills-box i {
+    font-size: 3rem;
+    color: rgb(109, 67, 0);
+    margin-bottom: 1rem;
+}
+
+.skills-box h3 {
+    font-size: 1.5rem;
+    color: black;
+    margin-bottom: 0.5rem;
+}
+
+.skills-box p {
+    font-size: 1rem;
+    color: #444;
+    margin-bottom: 1rem;
+}
+
+.skills-box button {
+    padding: 8px 16px;
+    background-color: rgb(109, 67, 0);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.skills-box button:hover {
+    background-color: white;
+    color: rgb(109, 67, 0);
+    border: 1px solid rgb(109, 67, 0);
+    box-shadow: 0 0 10px rgb(109, 67, 0);
+}
+
+.skills-box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 30px rgba(109, 67, 0, 0.3);
+}
+
