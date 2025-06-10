@@ -90,7 +90,6 @@ nav{
     transition: 0.2s linear;
 }
 
-
 .nav-container .contact-btn a{
     color: white;
     transition: 0.3s linear;
@@ -295,7 +294,6 @@ section{
 }
 
 
-
 /*------------------About-------------------*/
 .about {
     width: 100%;
@@ -451,7 +449,6 @@ section{
 }
 
 
-
 /*---------------------Contact--------------------*/
 .contact {
     width: 100%;
@@ -543,7 +540,6 @@ section{
     border: 1px solid rgb(109, 67, 0);
     box-shadow: 0 0 10px rgb(109, 67, 0);
 }
-
 
 .copyright {
     background-color:rgb(254,215,173);
